@@ -14,6 +14,6 @@ steps:
 # - step 2
 # - step 3
 # - ...
-  - uses: colpal/actions-clean@v1
+  - uses: patrontech/actions-clean@v1
     if: ${{ always() }} # To ensure this step runs even when earlier steps fail
 ```
